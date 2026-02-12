@@ -9,6 +9,7 @@ import Conditional from './Components/Condition'
 import Props from './Components/PropsJS'
 import Input from './Components/InputJs'
 import Skills from './Components/Skills_CheckBoxes'
+import Dropdown from './Components/Handle_Radio&Dropdown'
 
 function App() {
   let name = "aditya singh"
@@ -33,6 +34,7 @@ function App() {
     </Props> */}
 
     <Skills />
+    <Dropdown />
     </>
   )
 }
