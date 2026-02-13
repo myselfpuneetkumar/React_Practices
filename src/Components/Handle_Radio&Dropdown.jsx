@@ -30,9 +30,9 @@ function Dropdown() {
 
             select your city:{city}<br/>
 
-            <select onChange={selectCity} name="select" id="">select
-                <option value="delhi">Delhi</option>
-                <option value="ghaziabad">Ghaziabad</option>
+            <select onChange={selectCity} name="select" id="" defaultValue= "Select" >
+                <option value="Delhi">Delhi</option>
+                <option value="Ghaziabad">Ghaziabad</option>
                 <option value="Noida">Noida</option>
             </select>
 

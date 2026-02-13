@@ -10,6 +10,7 @@ import Props from './Components/PropsJS'
 import Input from './Components/InputJs'
 import Skills from './Components/Skills_CheckBoxes'
 import Dropdown from './Components/Handle_Radio&Dropdown'
+import Loops from './Components/Loops'
 
 function App() {
   let name = "aditya singh"
@@ -18,11 +19,11 @@ function App() {
     <>
     <h1>Hello world!!</h1>
     <h2>react code</h2>
-    <Login />
+    {/* <Login />
     <Signup />
     <UseStates />
     <Conditional />
-    <Input />
+    <Input /> */}
 
   
     {/* <Props  name = {name} email="aditya@tech.in"/>  */}
@@ -35,6 +36,7 @@ function App() {
 
     <Skills />
     <Dropdown />
+    <Loops />
     </>
   )
 }
