@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import './index.css'
 import './App.css'
 import Login from './Components/Login'
 import { Signup } from './Components/Signup'
@@ -11,6 +12,8 @@ import Input from './Components/InputJs'
 import Skills from './Components/Skills_CheckBoxes'
 import Dropdown from './Components/Handle_Radio&Dropdown'
 import Loops from './Components/Loops'
+import Images from './Components/Images'
+import Useref from './Components/UseRef'
 
 function App() {
   let name = "aditya singh"
@@ -35,8 +38,10 @@ function App() {
     </Props> */}
 
     <Skills />
-    <Dropdown />
-    <Loops />
+    {/* <Dropdown />
+    <Loops /> */}
+    {/* <Images /> */}
+    <Useref />
     </>
   )
 }
