@@ -19,6 +19,10 @@ import Props_function from './Components/Props_function'
 import ForwardRef from './Components/ForwardRef'
 import UseFormS from './Components/useForm'
 import UseTransition from './Components/UseTransition'
+import DerivedState from './Components/DerivedStates'
+import LiftingStateUp from './Components/LiftingStateUp'
+import UpdatingObject from './Components/ObjectUpdating'
+import UpdatingArray from './Components/Updatingarray'
 
 function App({name2}) {
   let name = "aditya singh"
@@ -70,7 +74,22 @@ function App({name2}) {
 
 
 
-<UseTransition />
+{/* <UseTransition /> */}
+
+
+
+{/* <DerivedState /> */}
+
+
+
+
+{/* <LiftingStateUp /> */}
+
+{/* <UpdatingObject /> */}
+
+
+
+<UpdatingArray />
 
 
 
