@@ -1,8 +1,8 @@
 import { useRef, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './index.css'
-import './App.css'
+// import './index.css'
+// import './App.css'
 import Login from './Components/Login'
 import { Signup } from './Components/Signup'
 import UseStates from './Components/USeStateJS'
@@ -23,6 +23,11 @@ import DerivedState from './Components/DerivedStates'
 import LiftingStateUp from './Components/LiftingStateUp'
 import UpdatingObject from './Components/ObjectUpdating'
 import UpdatingArray from './Components/Updatingarray'
+import UseActionHook from './Components/UseActionHook'
+import UseIdHook from './Components/UseIdHOOK'
+import CustomHooks from './Components/CustomHooks'
+import ContextAPI from './Components/ContextAPI'
+import RouterComponent from './Routers/Router'
 
 function App({name2}) {
   let name = "aditya singh"
@@ -89,8 +94,27 @@ function App({name2}) {
 
 
 
-<UpdatingArray />
+{/* <UpdatingArray /> */}
 
+
+
+{/* < UseActionHook /> */}
+
+
+
+{/* <UseIdHook /> */}
+
+
+
+{/* <CustomHooks /> */}
+
+
+
+{/* <ContextAPI /> */}
+
+
+
+<RouterComponent />
 
 
 
