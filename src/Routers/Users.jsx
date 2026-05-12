@@ -35,6 +35,20 @@ export default function Users() {
                 )
               
             }
+            <h1>List with user name</h1>
+            {
+                userData.map((items) => {
+                       return(
+                        <div>
+                    Name:<Link to={"/users/" + items.id +"/" + items.name } >{items.name}</Link>
+                    </div>
+                )
+
+                }
+               
+                )
+              
+            }
 
         </>
     )

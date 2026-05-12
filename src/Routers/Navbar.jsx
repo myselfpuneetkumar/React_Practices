@@ -1,4 +1,4 @@
-import { Link, Outlet } from "react-router";
+import { Link, NavLink, Outlet } from "react-router";
 import './header.css'
 
 export default function Navbar() {
@@ -9,11 +9,12 @@ export default function Navbar() {
             </div>
             <div>
                 <ul>
-                    <li><Link to="/user/home" ><h1>Home</h1></Link></li>
-                    <li><Link to="/user/about" ><h1>About</h1></Link></li>
-                    <li><Link to="/user/login" ><h1>Login</h1></Link></li>
-                    <li><Link to="/college" ><h1>College</h1></Link></li>
-                    <li><Link to="/users" ><h1>Users</h1></Link></li>
+                    <li><NavLink to="/user/about" ><h1>About</h1></NavLink></li>
+                    <li><NavLink to="/user/home" ><h1>Home</h1></NavLink></li>
+                    <li><NavLink to="/user/login" ><h1>Login</h1></NavLink></li>
+                    <li><NavLink to="/college" ><h1>College</h1></NavLink></li>
+                    <li><NavLink to="/users" ><h1>Users</h1></NavLink></li>
+                    
                 </ul>
             </div>
 

@@ -31,3 +31,8 @@
     margin: 10px;
 
 }
+.active{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 26, 255);
+    text-align: center;
+}

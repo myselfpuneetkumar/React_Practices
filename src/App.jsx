@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 // import './index.css'
 // import './App.css'
+import './Tail.css'
 import Login from './Components/Login'
 import { Signup } from './Components/Signup'
 import UseStates from './Components/USeStateJS'
@@ -28,6 +29,7 @@ import UseIdHook from './Components/UseIdHOOK'
 import CustomHooks from './Components/CustomHooks'
 import ContextAPI from './Components/ContextAPI'
 import RouterComponent from './Routers/Router'
+import TailMain from './TailwindCSS_js/TailMain'
 
 function App({name2}) {
   let name = "aditya singh"
@@ -114,7 +116,11 @@ function App({name2}) {
 
 
 
-<RouterComponent />
+{/* <RouterComponent /> */}
+
+
+
+<TailMain />
 
 
 
