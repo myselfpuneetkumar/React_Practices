@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": "0",
+      "name": "puneet",
+      "age": 27,
+      "email": "puneet@testing.in"
+    },
+    {
+      "id": "1",
+      "name": "yash",
+      "age": 27,
+      "email": "yash@testing.in"
+    },
+    {
+      "id": "2",
+      "name": "daksh",
+      "age": 5,
+      "email": "daksh@testing.in"
+    },
+    {
+      "name": "buggu",
+      "age": 5,
+      "email": "daksh@testing.com",
+      "id": "3"
+    },
+    {
+      "name": "puneet ",
+      "age": 27,
+      "email": "puneet@testing.com",
+      "id": "tTZYL5dLoaY"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
