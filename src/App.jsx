@@ -33,6 +33,7 @@ import TailMain from './TailwindCSS_js/TailMain'
 import API_Main from './API/API_Main'
 import LocalApi from './API/LocalApi'
 import API_Routes from './API/API_Routes'
+import Form_Validation from './Data_Validation/Form_Validation'
 
 function App({name2}) {
   let name = "aditya singh"
@@ -134,7 +135,11 @@ function App({name2}) {
 
 
 
-<API_Routes />
+{/* <API_Routes /> */}
+
+
+<Form_Validation />
+
 
 
 
