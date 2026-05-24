@@ -35,6 +35,7 @@ import LocalApi from './API/LocalApi'
 import API_Routes from './API/API_Routes'
 import Form_Validation from './Data_Validation/Form_Validation'
 import Form_Validation_UAS from './Data_Validation/Form_Validation_UAS'
+import UseReducer from './Components/UseReducer'
 
 function App({name2}) {
   let name = "aditya singh"
@@ -144,6 +145,12 @@ function App({name2}) {
 
 
 {/* <Form_Validation_UAS /> */}
+
+
+
+<UseReducer />
+
+
 
 
 
