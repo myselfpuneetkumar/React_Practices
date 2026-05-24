@@ -34,6 +34,7 @@ import API_Main from './API/API_Main'
 import LocalApi from './API/LocalApi'
 import API_Routes from './API/API_Routes'
 import Form_Validation from './Data_Validation/Form_Validation'
+import Form_Validation_UAS from './Data_Validation/Form_Validation_UAS'
 
 function App({name2}) {
   let name = "aditya singh"
@@ -138,7 +139,14 @@ function App({name2}) {
 {/* <API_Routes /> */}
 
 
-<Form_Validation />
+{/* <Form_Validation /> */}
+
+
+
+{/* <Form_Validation_UAS /> */}
+
+
+
 
 
 
