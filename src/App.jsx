@@ -36,6 +36,7 @@ import API_Routes from './API/API_Routes'
 import Form_Validation from './Data_Validation/Form_Validation'
 import Form_Validation_UAS from './Data_Validation/Form_Validation_UAS'
 import UseReducer from './Components/UseReducer'
+import LazyLoad from './LazyLoading/LazyLoadMain'
 
 function App({name2}) {
   let name = "aditya singh"
@@ -148,7 +149,11 @@ function App({name2}) {
 
 
 
-<UseReducer />
+{/* <UseReducer /> */}
+
+
+
+<LazyLoad />
 
 
 
